@@ -5,3 +5,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  min-height: 92vw;
+}
+
+#main-header {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20vw;
+  min-height: 8vw;
+}
+
+#main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5vw;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+#search {
+  display: flex;
+  gap: 2.4vw;
+}
+
+#search-query{
+  padding: 0.5vw;
+  margin: 1.2vw;
+  min-width: 28vw ;
+}
+
+#submit-search{
+  margin: 1vw 0;
+  padding: 0 2.2vw;
+  font-size: 1rem;
+}
