@@ -7,7 +7,7 @@ const fetchMovie = async (moddedString) => {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "80dfa45c4fmshf05c2f8c65bbb48p11e4e4jsn89b61d249925",
+      "x-rapidapi-key": "",
       "x-rapidapi-host": "imdb8.p.rapidapi.com",
     },
   };
